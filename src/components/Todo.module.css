@@ -20,6 +20,7 @@
     width: 39.5rem;
     text-align: left;
     word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .container {
     display: block;
@@ -103,4 +104,21 @@
 .todoBox button:hover {
     color: var(--danger);
     background: var(--gray-400);
+}
+
+
+@media (max-width: 768px) {
+  .todoBox p {
+    width: 80%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+}
+
+@media (max-width: 375px) {
+  .todoBox p {
+    width: 80%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
 }
