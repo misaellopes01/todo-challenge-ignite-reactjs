@@ -18,6 +18,8 @@ function App() {
   const [todoCompleted, setTodoCompleted] = useState(0)
   const [todosCopy, setTodosCopy] = useState([0])
 
+  const verifyInput = !singleTodo.title.trim()
+
   function handleSetSingleTodo(event: FormEvent) {
     event.preventDefault()
     setTodos([...todos, singleTodo])
@@ -32,7 +34,6 @@ function App() {
   function handleNewCommentInvalid(event: InvalidEvent<HTMLInputElement>) {
     event.target.setCustomValidity('Campo Obrigatório!')
   }
-
 
   function countCompleted(idForCount: number) {
     const totalCount = todos.filter(todo => {
@@ -73,7 +74,7 @@ function App() {
             onInvalid={handleNewCommentInvalid}
             required
           />
-          <button>
+          <button disabled={verifyInput && true}>
             Criar
             <PlusCircle size={21} />
           </button>

@@ -52,6 +52,13 @@
     transition: background-color .2s;
     cursor: pointer;
 }
+
+.inputContent button:disabled, .inputContent button:disabled:hover {
+    cursor: not-allowed;
+    background: var(--blue-dark);
+    opacity: .8;
+}
+
 .inputContent button:hover {
     background: var(--blue);
 }
