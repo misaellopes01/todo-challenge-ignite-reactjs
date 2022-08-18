@@ -109,7 +109,7 @@
 
 @media (max-width: 768px) {
   .todoBox p {
-    width: 80%;
+    width: 76%;
     word-wrap: break-word;
     overflow-wrap: break-word;
   }
@@ -117,7 +117,7 @@
 
 @media (max-width: 375px) {
   .todoBox p {
-    width: 80%;
+    width: 76%;
     word-wrap: break-word;
     overflow-wrap: break-word;
   }
