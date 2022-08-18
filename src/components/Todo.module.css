@@ -19,6 +19,7 @@
     margin-left: 0.3rem;
     width: 39.5rem;
     text-align: left;
+    word-wrap: break-word;
 }
 .container {
     display: block;
