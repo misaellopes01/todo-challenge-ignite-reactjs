@@ -1,2 +1,14 @@
-# todo-challenge-ignite-reactjs
- 
+# ToDoApp with TypeScript => <a href='https://todochallenge-ignite.vercel.app/'>Online View</a>
+## Ignite ReactJS First Challenge
+
+![ToDoApp](https://user-images.githubusercontent.com/66078558/185861918-d43a1226-7b3b-4725-bf52-9e318b5df03e.png)
+
+
+<h2>React TSX</h2>
+<hr>
+<li>Components</li>
+<li>States</li>
+<li>Properties</li>
+<li>Communication</li>
+<li>Module CSS</li>
+<li>JS Methods: <em>filter, some, find</em></li>
