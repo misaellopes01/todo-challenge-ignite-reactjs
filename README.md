@@ -7,7 +7,7 @@
 <li><em>Add new TODO</em></li>
 <li><em>Delete TODO</li>
 <li><em>Set Completed</li>
-<li><em>Count Total and Completed ToDos</li>
+<li><em>Count Total and Completed TODOs</li>
 
 <h2>React TSX</h2>
 <hr>
